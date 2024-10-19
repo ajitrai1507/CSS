@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+
+
+.card{
+    border: 1px solid black;
+    width: 30vw;
+    height: 30vw;
+    margin: 10px 10px 10px 35vw;
+    padding: 1rem;
+    background-color: cornflowerblue;
+    border-radius: 1rem;
+    
+}
+
+.card:hover{
+    transform: scale(1.2);
+    transition: all 1s ease-out;
+    transform: rotate(360deg);
+}
+
+.card h2, h3, p{
+    text-align: center;
+    color: white;
+
+}
+
+.card:hover h2{
+    color: aquamarine;
+    transition: 1s ease-in;
+}
+
+h1:hover{
+    transform: rotate(90deg);
+}
