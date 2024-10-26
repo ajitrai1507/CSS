@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+.container{
+    background-color: bisque;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+.first{
+    background-color: red;
+}
+.second{
+    background-color: yellow;
+    position: absolute;
+    z-index: -2;
+}
+.third{
+    background-color: greenyellow;
+}
+.fourth{
+    background-color: pink;
+}
