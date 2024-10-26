@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+
+.first{
+    height: 30vh;
+    width: 10vw;
+    background-color: navy;
+    margin-left: 25vw;
+}
+
+.second{
+    height: 20vh;
+    width: 100vw;
+    background-color: navy;
+}
+
+.third{
+    margin-left: 25vw;
+    height: 50vh;
+    background-color: navy;
+    width: 10vw;
+}
