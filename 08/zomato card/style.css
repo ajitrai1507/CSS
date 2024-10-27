@@ -7,6 +7,108 @@ body{
     background-color: rgb(253, 243, 243);
 }
 
+.first{
+    background-color: white;
+}
+
+.logo{
+    margin-left: 400px;
+    font-size: 2rem;
+    color: red;
+    position: relative;
+    margin-top: 10px;
+}
+
+
+.search{
+    margin-left: 10rem;
+    padding: 1rem;
+    width: 400px;
+    position: relative;
+    border-radius: 0.5rem;
+    bottom: 15px;
+}
+
+.btns{
+    margin-left: 200px;
+    position: relative;
+    bottom: 15px;
+}
+
+.btn{
+    margin-left: 50px;
+    padding: 20px;
+    width: 100px;
+    border-radius: 0.5rem;
+    color: gray;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.nav{
+    display: inline-block;
+}
+
+.second{
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.dining_out{
+    margin-left: 400px;
+}
+
+.png img{
+    width: 70px;
+}
+
+.png_txt{
+    position: relative;
+    bottom: 25px;
+    font-size: 20px;
+    
+}
+
+.delivery{
+    margin-left: 45px;
+}
+
+.nightlife{
+    margin-left: 45px;
+}
+
+.collections_para{
+    margin-left: 400px;
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.collections_imgs{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.collections_img{
+    position: relative;
+    display: inline-block;
+}
+.collections_img img{
+    height: 400px;
+
+}
+
+.positions{
+    position: absolute;
+    bottom: 15px;
+    color: white;
+    
+    font-size: 1.5rem;
+    left: 10px;
+}
 .container{ 
     cursor: pointer;
     border-radius: 1rem;
@@ -27,6 +129,7 @@ body{
 .img{
     position: relative;
 }
+
 img{
     border-radius: 1rem;
 }
