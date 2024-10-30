@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+
+.container{
+    background-color: coral;
+    display: flex;
+    height: 700px;
+    gap: 10px;
+    height: 100vh;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* align-items: start; */
+    /* align-items: end; */
+    /* align-items: stretch; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    flex-wrap: wrap;
+    /* align-content: center; */
+    /* align-content: baseline; */
+    /* align-content: end; */
+    /* align-content: first baseline; */
+    
+
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+.word{
+    height: 50vh;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: baseline;
+}
+
+.first{
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.last{
+    font-size: 25px;
+}
