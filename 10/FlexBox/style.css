@@ -1,0 +1,32 @@
+.container{
+    background-color: cornflowerblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+}
+
+.box1{
+    background-color: red;
+    /* order: 2; */
+    align-self: baseline;
+}
+.box2{
+    background-color: gold;
+    /* order: -1; */
+
+}
+.box3{
+    background-color: hotpink;
+    align-self: flex-end;
+}
+.box4{
+    background-color: burlywood;
+    /* align-self: last baseline; */
+}

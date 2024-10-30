@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    background-color: crimson;
+    display: flex;
+    gap: 10px;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+.box1{
+    background-color: antiquewhite;
+}
+.box2{
+    background-color: grey;
+    
+}
+.box3{
+    background-color: wheat;
+}
+.box4{
+    background-color: hotpink;
+}
+
+@media (max-width:400px){
+    .container{
+        flex-direction: column;
+        background-color: aqua;
+    }
+}
